@@ -13,7 +13,6 @@ header {
   height: 20vh;
   width: 100%;
   margin-top: 3vh;
-  background-color: pink;
 }
 #logo{
   height: 10vh;
@@ -28,7 +27,6 @@ ul li{
   line-height: 10vh;
   padding-right: 10px;
 }
-
 ul li a{
   text-decoration: none;
   color: lightgray;
@@ -38,7 +36,6 @@ section {
   position: relative;
   height: 60vh;
   width: 100%;
-  background-color: yellow;
   margin:3vh 0;
 }
 section img {
@@ -47,6 +44,7 @@ section img {
   object-fit: cover;
   border-radius: 15px;
 }
+
 .section.text{
   position: absolute;
   width:35%;
@@ -58,7 +56,6 @@ section img {
 .main_header {
   height: 10vh;
   width: 100%;
-  background-color: rgb(36, 209, 199);
 }
 .main_header p{
   color: lightgray;
@@ -67,7 +64,6 @@ section img {
 .main_container {
   height: 70vh;
   width: 100%;
-  background-color: blue;
 }
 .main_container::after {
   content: "";
@@ -90,24 +86,41 @@ section img {
 float:left;
 height: calc(100% - 4vh);
 width: 20%;
-background-color: rgb(36, 209, 199);
 margin-top: 2vh;
 margin-bottom: 2vh;
 }
-
 .maincontent.center {
   float:left;
   height: calc(100% - 4vh);
   width: calc(60% - 4vh) ;
-  background-color: rgb(36, 209, 199);
   margin:2vh;
 }
 
+.layover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(40, 40, 40,0.3);
+  border-radius: 15px;
+}
+.layover-img {
+  position: absolute;
+  height: 30vh;
+  width: 46%;
+  background-color: rgb(40, 40, 40,0.3);
+  border-radius: 15px;
+}
+.layover-imgside {
+  position: absolute;
+  height: 30vh;
+  width: calc(20% - 9vh);
+  background-color: rgb(40, 40, 40,0.4);
+  border-radius: 15px;
+}
 
 footer {
   height: 10vh;
   width: 100%;
-  background-color: purple;
   margin-top: 1vh;
   text-align: center;
 }
