@@ -29,6 +29,7 @@ ul li{
 }
 ul li a{
   text-decoration: none;
+  text-transform: uppercase;
   color: lightgray;
 }
 
@@ -37,12 +38,13 @@ section {
   height: 60vh;
   width: 100%;
   margin:3vh 0;
+  border-radius: 15px;
+  overflow:hidden;
 }
 section img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 15px;
 }
 
 .section.text{
@@ -54,15 +56,14 @@ section img {
 }
 
 .main_header {
-  height: 10vh;
   width: 100%;
+  margin:20px 0;
 }
 .main_header p{
   color: lightgray;
 }
 
 .main_container {
-  height: 70vh;
   width: 100%;
 }
 .main_container::after {
@@ -84,14 +85,12 @@ section img {
 .maincontent.right ,
 .maincontent.left {
 float:left;
-height: calc(100% - 4vh);
 width: 20%;
 margin-top: 2vh;
 margin-bottom: 2vh;
 }
 .maincontent.center {
   float:left;
-  height: calc(100% - 4vh);
   width: calc(60% - 4vh) ;
   margin:2vh;
 }
@@ -101,7 +100,6 @@ margin-bottom: 2vh;
   height: 100%;
   width: 100%;
   background-color: rgb(40, 40, 40,0.3);
-  border-radius: 15px;
 }
 .layover-img {
   position: absolute;
@@ -119,7 +117,6 @@ margin-bottom: 2vh;
 }
 
 footer {
-  height: 10vh;
   width: 100%;
   margin-top: 1vh;
   text-align: center;
